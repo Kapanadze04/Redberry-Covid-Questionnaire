@@ -1,0 +1,98 @@
+@font-face {
+    font-family: "BPG Arial";
+    src: url(./assets/font/bpg_arial_2009.ttf) format("opentype");
+}
+
+* {
+    font-family: "BPG Arial";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 700;
+}
+
+/* Colors */
+
+:root {
+    --bgColor: #EAEAEA;
+    --black23: #232323;
+    --black: #000000;
+    --errorColor: #F15524;
+    --gray62: #626262;
+}
+
+/* Colors */
+
+
+/* General Classes */
+
+.flex { display: flex; }
+
+.flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.flexBetween {
+    display: flex;
+    justify-content: space-between;
+}
+
+a { text-decoration: none; }
+
+/* General Classes */
+
+
+
+
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--bgColor);
+}
+
+.page-num {
+    font-size: 40px;
+    color: var(--black23);
+}
+
+header {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-line {
+    width: 100%;
+    height: 1.8px;
+    background-color: var(--black23);
+    margin-top: 23px;
+    margin-bottom: 42px;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    padding: 97px 196px 0 200px;
+}
+
+.right-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form h1 {
+    font-size: 22px;
+    color: var(--black23);
+    margin-bottom: 11px;
+}
+
+.arrow-left,
+.arrow-right { cursor: pointer; }

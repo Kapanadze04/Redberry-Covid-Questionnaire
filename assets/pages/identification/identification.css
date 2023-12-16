@@ -1,0 +1,57 @@
+form { width: 513px; }
+
+form label {
+    font-size: 22px;
+    color: var(--black23);
+}
+
+form .error {
+    margin-left: 19px;
+    color: var(--errorColor);
+}
+
+.error-place { height: 19px; }
+
+#name-input,
+#lastname-input,
+#email-input {
+    margin-top: 8px;
+    margin-bottom: 6px;
+    width: 100%;
+    height: 50px;
+    padding: 10px 20px;
+    outline: none;
+    background: transparent;
+    border: 0.8px solid var(--black23);
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--black23);
+}
+
+.name-input,
+.lastname-input { margin-bottom: 22px; }
+
+.email-input { margin-bottom: 87px; }
+
+.warning-line {
+    width: 237px;
+    height: 0.8px;
+    margin-bottom: 20px;
+    background: var(--black);
+}
+
+.warning {
+    width: 350px;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--gray62);
+}
+
+.content-img { margin-top: -120px; }
+
+
+.arrow-right {
+    margin-top: -120px;
+    margin-left: -570px;
+}
+

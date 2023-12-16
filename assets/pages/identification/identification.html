@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid Questionnaire</title>
+    <link rel="stylesheet" href="./identification.css">
+    <link rel="stylesheet" href="../../../common.css">
+</head>
+<body>
+    <div class="container">
+                                        <!-- Header -->
+        <header class="flex">
+            <img src="../../img/company-txt.png" alt="redberrt txt">
+            <span class="page-num">1/4</span>
+        </header>
+
+        <div class="header-line"></div>
+                                        <!-- Section - Form-->
+        <section class="flexBetween">
+            <form>
+                <div class="name-input flexColumn">
+                    <label for="name-input">სახელი*</label>
+                    <input type="text" id="name-input" name="name" placeholder="სახელი">
+
+                    <div class="error-place">
+                        <span class="error name-error"></span>
+                    </div>
+                </div>
+
+                <div class="lastname-input flexColumn">
+                    <label for="lastname-input">გვარი*</label>
+                    <input type="text" id="lastname-input" name="lastname" placeholder="გვარი">
+
+                    <div class="error-place">
+                        <span class="error lastname-error"></span>
+                    </div>
+                </div>
+
+                <div class="email-input flexColumn">
+                    <label for="email-input">მეილი*</label>
+                    <input type="email" id="email-input" name="email" placeholder="ელ-ფოსტა">
+
+                    <div class="error-place">
+                        <span class="error email-error"></span>
+                    </div>
+                </div>
+
+                <div class="warning-line"></div>
+
+                <span class="warning">*-ით მონიშნული ველების შევსება <br> სავალდებულოა</span>
+            </form>
+
+            <div class="right-form">
+                <img class="content-img" src="../../img/identification-img.png" alt="identification img">
+
+                <img onclick="onNextPage()" class="arrow-right" src="../../img/arrow-right.svg" alt="arrow right svg">
+            </div>
+
+        </section>
+    </div>
+
+    <script src="./identification.js"></script>
+</body>
+</html>
