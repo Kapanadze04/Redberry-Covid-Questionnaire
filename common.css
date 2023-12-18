@@ -19,6 +19,7 @@
     --black: #000000;
     --errorColor: #F15524;
     --gray62: #626262;
+    --linkColor: #1289AE;
 }
 
 /* Colors */
@@ -92,6 +93,14 @@ form h1 {
     font-size: 22px;
     color: var(--black23);
     margin-bottom: 11px;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-bottom: 48px;
+    gap: 20px;
 }
 
 .arrow-left,

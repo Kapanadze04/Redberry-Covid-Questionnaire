@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid Questionnaire</title>
+    <link rel="stylesheet" href="./vaccine.css">
+    <link rel="stylesheet" href="../../../common.css">
+</head>
+<body>
+    <div class="container">
+                                        <!-- Header -->
+        <header class="flex">
+            <img src="../../img/company-txt.png" alt="company-txt">
+            <span class="page-num">3/4</span>
+        </header>
+
+        <div class="header-line"></div>
+                                        <!-- Section -->
+        <section class="flexBetween">
+                                        <!-- Form -->
+            <form>
+                <div class="question1">
+                    <h1>უკვე აცრილი ხარ?*</h1>
+                    <div class="options">
+
+                        <div class="option1">
+                            <input type="radio" name="vaccine-status" id="vaccine-yes">
+                            <label for="vaccine-yes">კი</label>
+                        </div>
+
+                        <div class="option2">
+                            <input type="radio" name="vaccine-status" id="vaccine-no">
+                            <label for="vaccine-no">არა</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="question2">
+                    <h1>აირჩიე რა ეტაპზე ხარ*</h1>
+                    <div class="options">
+
+                        <div class="option1">
+                            <input type="radio" name="step" id="step1">
+                            <label for="step1">პირველი დოზა და დარეგისტრირებული ვარ მეორეზე</label>
+                        </div>
+
+                        <div class="option2">
+                            <input type="radio" name="step" id="step2">
+                            <label for="step2">სრულად აცრილი ვარ</label>
+                        </div>
+
+                        <div class="option3">
+                            <input type="radio" name="step" id="step3">
+                            <label for="step3">პირველი დოზა და არ დავრეგისტრირებულვარ მეორეზე</label>
+                        </div>
+
+                        <span class="vaccine2-registration">რომ არ გადადო, 
+                            ბარემ ახლავე დარეგისტრირდი
+                            <a href="#">https://booking.moh.gov.ge/</a></span>
+                    </div>
+                </div>
+
+                <div class="question3">
+                    <h1>რას ელოდები?*</h1>
+                    <div class="options">
+
+                        <div class="option1">
+                            <input type="radio" name="wait" id="wait1">
+                            <label for="wait1">დარეგისტრირებული ვარ და ველოდები რიცხვს</label>
+                        </div>
+
+                        <div class="option2">
+                            <input type="radio" name="wait" id="wait2">
+                            <label for="wait2">არ ვგეგმავ</label>
+                        </div>
+
+                        <div class="option3">
+                            <input type="radio" name="wait" id="wait3">
+                            <label for="wait3">გადატანილი მაქვს და ვგეგმავ აცრას</label>
+                        </div>
+                        
+                        <span class="dont-plan-vaccine"><a href="#">👉 https://booking.moh.gov.ge/</a></span>
+
+                        <span class="dont-plan-vaccine2">ახალი პროტოკოლით კოვიდის გადატანიდან 1 თვის შემდეგ შეგიძლიათ ვაქცინის გაკეთება.  
+                            <br><br>
+                           <a href="">👉 რეგისტრაციის ბმული
+                            https://booking.moh.gov.ge/</a></span>
+                    </div>
+                </div>
+
+            </form>
+
+
+            <div class="right-form">
+                <img class="content-img" src="../../img/vaccine-img.png" alt="vaccine img">
+
+                <div class="button-wrapper flexCenter">
+                    <img onclick="onLeftPage()" class="arrow-left" src="../../img/arrow-left.svg" alt="arrow left svg">
+                    <img onclick="onNextPage()" class="arrow-right" src="../../img/arrow-right.svg" alt="arrow right svg">
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+
+    <script src="./vaccine.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+form { width: 642px; }
+
+label {
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--black23);
+}
+
+.question2,
+.question3 {
+    display: none;
+}
+
+.vaccine2-registration,
+.dont-plan-vaccine,
+.dont-plan-vaccine2 {
+    width: 337px;
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--black23);
+    display: none;
+}
+
+.dont-plan-vaccine2 { width: 491px; }
+
+.vaccine2-registration a,
+.dont-plan-vaccine a,
+.dont-plan-vaccine2 a {
+    color: var(--linkColor);
+}
+
+.content-img {
+    width: 650px;
+    height: 650px;
+    margin-top: -25px;
+}
+
+.button-wrapper {
+    gap: 100px;
+    margin-top: -50px;
+    margin-left: -750px;
+}
