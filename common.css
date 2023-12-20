@@ -14,12 +14,14 @@
 /* Colors */
 
 :root {
+    --white: #FFFFFF;
     --bgColor: #EAEAEA;
     --black23: #232323;
     --black: #000000;
     --errorColor: #F15524;
     --gray62: #626262;
     --linkColor: #1289AE;
+    --btnBg: #208298;
 }
 
 /* Colors */

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid Questionnaire</title>
+    <link rel="stylesheet" href="./tips.css">
+    <link rel="stylesheet" href="../../../common.css">
+</head>
+<body>
+    <div class="container">
+                                        <!-- Header -->
+        <header class="flex">
+            <img src="../../img/company-txt.png" alt="company txt">
+            <span class="page-num">4/4</span>
+        </header>
+
+        <div class="header-line"></div>
+                                        <!-- Section -->
+        <section class="flexBetween">
+                                        <!-- Form -->
+            <div class="left-side">
+
+            
+                <aside>
+
+                                        
+                    <form>
+                        <p>რედბერის მთავარი ღირებულება ჩვენი გუნდის თითოეული წევრია. გარემო, რომელსაც ჩვენი
+                            თანამშრომლები ქმნით, ბევრისთვის არის და ყოფილა წლების განმავლობაში მიზნებისთვის ერთად ბრძოლის მიზეზი, ბევრისთვის კი — ჩვენთან გადმოსვლის. 
+                            <br><br><br>
+                            პანდემიის პერიოდში ერთმანეთსაც იშვიათად ვნახულობთ პირისპირ და ყოველდღიური კომუნიკაციაც გაიშვიათდა.</p>
+
+
+                        <div class="tips-question1">
+                            <h1>რა სიხშირით შეიძლება გვქონდეს საერთო არაფორმალური ონლაინ შეხვედრები, სადაც ყველა სურვილისამებრ ჩაერთვება?*</h1>
+                            <div class="options">
+
+                                <div class="option1">
+                                    <input type="radio" name="tips1" id="twiceA-week">
+                                    <label for="twiceA-week">კვირაში ორჯერ</label>
+                                </div>
+
+                                <div class="option2">
+                                    <input type="radio" name="tips1" id="onceA-week">
+                                    <label for="onceA-week">კვირაში ერთხელ</label>
+                                </div>
+
+                                <div class="option3">
+                                    <input type="radio" name="tips1" id="fortnightly">
+                                    <label for="fortnightly">ორ კვირაში ერთხელ</label>
+                                </div>
+
+                                <div class="option4">
+                                    <input type="radio" name="tips1" id="onceA-month">
+                                    <label for="onceA-month">თვეში ერთხელ</label>
+                                </div>
+
+                            </div>
+                        </div>   
+
+
+                        <div class="tips-question2">
+                            <h1>კვირაში რამდენი დღე ისურვებდი ოფისიდან მუშაობას?*</h1>
+                            <div class="options">
+
+                                <div class="option1">
+                                    <input type="radio" name="tips2" id="day0">
+                                    <label for="day0">0</label>
+                                </div>
+
+                                <div class="option2">
+                                    <input type="radio" name="tips2" id="day1">
+                                    <label for="day1">1</label>
+                                </div>
+
+                                <div class="option3">
+                                    <input type="radio" name="tips2" id="day2">
+                                    <label for="day2">2</label>
+                                </div>
+
+                                <div class="option4">
+                                    <input type="radio" name="tips2" id="day3">
+                                    <label for="day3">3</label>
+                                </div>
+
+                                <div class="option5">
+                                    <input type="radio" name="tips2" id="day4">
+                                    <label for="day4">4</label>
+                                </div>
+
+                                <div class="option6">
+                                    <input type="radio" name="tips2" id="day5">
+                                    <label for="day5">5</label>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <h1>რას ფიქრობ ფიზიკურ შეკრებებზე?</h1>
+                        <textarea></textarea>
+
+                        <h1>რას ფიქრობ არსებულ გარემოზე: <br>
+                            რა მოგწონს, რას დაამატებდი, რას შეცვლიდი?</h1>
+                        <textarea></textarea>
+                    </form>
+                </aside>
+
+                <aside>
+                    <button onclick="onNextPage()" id="finish">დასრულება</button>
+                </aside>
+
+            </div>
+
+            <div class="right-form">
+                <img class="content-img" src="../../img/tips-img.png" alt="tips img">
+                <img onclick="onLeftPage()" class="arrow-left" src="../../img/arrow-left.svg" alt="arrow left svg">
+            </div>
+
+        </section>
+
+    </div>
+
+    <script src="./tips.js"></script>
+</body>
+</html>
