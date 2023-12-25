@@ -43,3 +43,8 @@ label {
     margin-top: -70px;
     margin-left: -596px;
 }
+
+.error {
+    color: var(--errorColor);
+    display: none;
+}

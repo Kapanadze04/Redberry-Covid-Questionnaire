@@ -10,6 +10,14 @@ const question4 = document.querySelector(".question4");
 const testYes = document.querySelector("#test-yes");
 const testNo = document.querySelector("#test-no");
 
+const inputDate = document.querySelector("#input-date");
+const inputAntiTest = document.querySelector("#input-anti-test");
+const inputCovidPeriod = document.querySelector("#input-covid-period");
+
+const error = document.querySelector(".error");
+
+let trySubmit = false;
+
 
 testYes.addEventListener("click", function() {
     if(testYes.checked) {
